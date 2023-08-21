@@ -1,0 +1,69 @@
+PS C:\Users\dbael\Desktop> mkdir Checkpoint1808-DaniellaBaella
+PS C:\Users\dbael\Desktop> cd Checkpoint1808-DaniellaBaella
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git init
+Initialized empty Git repository in C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\.git\
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git remote add origin https://github.com/DaniellaB9/Checkpoint1808-DaniellaBaella.git
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git remote -v
+origin  https://github.com/DaniellaB9/Checkpoint1808-DaniellaBaella.git (fetch)
+origin  https://github.com/DaniellaB9/Checkpoint1808-DaniellaBaella.git (push)
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> touch index.html main.js
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git add .
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git commit -m "Commit01 Daniella Baella"
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git push origin main
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git branch feature
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git checkout feature
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> mkdir Hardware Software SeguridadInformatica
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> cd Hardware
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\Hardware> touch resumen.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\Hardware> cd ..
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> cd Software
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\Software> touch resumen.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\Software> cd ..
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> cd SeguridadInformatica
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\SeguridadInformatica> touch resumen.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella\SeguridadInformatica> cd ..
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git add .
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git commit -m "Commit02 Se creo la rama feature Daniella Baella"
+[feature ce03692] Commit02 Se creo la rama feature Daniella Baella
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resumen.txt
+ create mode 100644 Software/resumen.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git push origin feature
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/DaniellaB9/Checkpoint1808-DaniellaBaella/pull/new/featureremote:
+To https://github.com/DaniellaB9/Checkpoint1808-DaniellaBaella.git
+ * [new branch]      feature -> feature
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> ls
+Directorio: C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/08/2023     14:47              0 index.html
+-a----        21/08/2023     14:47              0 main.js
+-a----        21/08/2023     14:45             77 README.md
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> mv index.html resumenSoftware.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> mv main.js resumenHardware.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> ls
+Directorio: C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/08/2023     14:45             77 README.md
+-a----        21/08/2023     14:47              0 resumenHardware.txt
+-a----        21/08/2023     14:47              0 resumenSoftware.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> touch comandos.txt
+PS C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella> ls
+Directorio:
+C:\Users\dbael\Desktop\Checkpoint1808-DaniellaBaella  
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        21/08/2023     15:34              0 comandos.txt
+-a----        21/08/2023     14:45             77 README.md
+-a----        21/08/2023     15:30             39 resumenHardware.txt
+-a----        21/08/2023     15:30             43 resumenSoftware.txt
